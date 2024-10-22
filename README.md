@@ -1,14 +1,49 @@
-<a href="https://exyte.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/exyte/media/master/common/header-dark.png"><img src="https://raw.githubusercontent.com/exyte/media/master/common/header-light.png"></picture></a>
+# Animated Navigation Bar dengan Perubahan Warna Layar
 
-<a href="https://exyte.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/exyte/media/master/common/our-site-dark.png" width="80" height="16"><img src="https://raw.githubusercontent.com/exyte/media/master/common/our-site-light.png" width="80" height="16"></picture></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/exyteHQ"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/exyte/media/master/common/twitter-dark.png" width="74" height="16"><img src="https://raw.githubusercontent.com/exyte/media/master/common/twitter-light.png" width="74" height="16">
-</picture></a> <a href="https://exyte.com/contacts"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/exyte/media/master/common/get-in-touch-dark.png" width="128" height="24" align="right"><img src="https://raw.githubusercontent.com/exyte/media/master/common/get-in-touch-light.png" width="128" height="24" align="right"></picture></a>
+Aplikasi Android ini dibuat untuk memenuhi tugas mata kuliah Pemrograman Perangkat Bergerak. Aplikasi ini mendemonstrasikan penggunaan Animated Navigation Bar dengan efek perubahan warna layar saat berpindah tab.
 
-![demo](https://user-images.githubusercontent.com/57913130/232720350-c929208f-81f2-4f95-8133-d5e8ee2102b4.gif)
+## Tujuan
 
+Tujuan dari pembuatan aplikasi ini adalah:
 
-[![Licence](https://img.shields.io/github/license/exyte/AndroidAnimatedNavigationBar)](https://github.com/exyte/AndroidAnimatedNavigationBar/blob/master/LICENSE)
-[![API](https://img.shields.io/badge/API%20-21%2B-brightgreen)](https://github.com/exyte/AndroidAnimatedNavigationBar)
-[![Maven-Central](https://img.shields.io/maven-central/v/com.exyte/animated-navigation-bar)](https://central.sonatype.com/artifact/com.exyte/animated-navigation-bar/1.0.0/overview)
+* Untuk menjawab dan memenuhi tanggung jawab pengerjaan tugas mata kuliah Pemrograman Perangkat Bergerak.
+* Untuk memenuhi tugas yang diminta, yaitu membuat aplikasi yang menampilkan navigasi untuk halaman pertama ke halaman berikutnya.
 
+## Setup
 
+1. **Clone repository ini:**
+2. **Buka proyek di Android Studio.**
+3. **Tambahkan dependency berikut ke file `build.gradle (Module: app)`:**
+4. **Build dan jalankan proyek di perangkat Android atau emulator.**
 
+## Library/Dependency yang Digunakan
+
+* **Jetpack Compose:** Untuk membangun UI deklaratif.
+* **Accompanist System UI Controller:** Untuk mengontrol System UI (status bar dan navigation bar).
+* **Animated Navigation Bar Library:** `com.exyte:animated-navigation-bar:1.0.0` -  Library khusus untuk membuat Animated Navigation Bar.
+
+## Langkah Penggunaan
+
+1. Jalankan aplikasi.
+2. Klik pada salah satu tab di Navigation Bar.
+3. Warna layar akan berubah sesuai dengan tab yang dipilih.
+4. **Build dan jalankan proyek di perangkat Android atau emulator.**
+
+## Demo
+
+Berikut adalah demo aplikasi dalam bentuk file .gif:
+
+![Animated Navigation Bar Demo](demoAnimatedNavAndroid.gif)
+
+## Running Hasil
+
+Aplikasi ini berhasil menampilkan navigasi antar halaman dengan efek perubahan warna layar. Setiap tab pada Navigation Bar akan mengarahkan pengguna ke halaman yang berbeda dengan warna latar belakang yang unik. Animasi pada Navigation Bar memberikan pengalaman pengguna yang menarik dan interaktif.
+
+## Catatan
+
+* Anda dapat menyesuaikan warna dan menambahkan lebih banyak tab sesuai kebutuhan.
+* Pastikan Anda telah menambahkan dependency `com.exyte:animated-navigation-bar:1.0.0` dan melakukan sync project.
+
+## Kontribusi
+
+Kontribusi sangat disambut! Jika Anda menemukan bug atau ingin menambahkan fitur baru, silakan buat pull request.
